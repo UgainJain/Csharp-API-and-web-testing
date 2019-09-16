@@ -21,7 +21,7 @@ namespace Expidia.com.Base
         [AfterScenario]
         public void AfterScenario()
         {
-            //Close();
+            Close();
         }
     }
 }

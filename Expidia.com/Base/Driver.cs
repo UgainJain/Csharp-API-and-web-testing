@@ -22,7 +22,7 @@ namespace Expedia.com.Base
             commnutils.Open_url("https://www.expedia.com");
         }
         public void Close() {
-            driver.Close();
+            driver.Quit();
         }
     }
 }
